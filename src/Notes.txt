@@ -1,0 +1,38 @@
+Objects in JavaScript
+
+An object is an unordered list of primitive data types and sometimes reference data types.
+ These are stored as a series of name-value pairs. e.g firstName: "Alex", lastName: "Herbert".
+ Functions within objects are called Methods. 
+ Create an object via object.Create() 
+
+ 3 WAYS OF CREATING AN OBJECT 
+    Object Literal - ({})
+    Object Constructor - (new Object())
+    Function Constructor - (new FunctionName())
+
+Object Literal
+
+//initializing an object Literal
+var companyInfo = {};
+
+Object Constructor - new Object()
+
+//initializing empty object
+var companyInfo = new Object();
+
+//assign properites to above object
+companyInfo.name = "";
+companyInfo.code = "";
+companyInfo.city = "";
+companyInfo.getCode = function();
+{
+    return this.code; //this. points to the piece of code you declare.
+}
+
+instanceof will confirm what type of object you are targeting
+
+
+
+
+
+
